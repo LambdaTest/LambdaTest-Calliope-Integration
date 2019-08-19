@@ -1,6 +1,6 @@
 # LambdaTest and Calliope Integration
 
-Using this repository you can now send test execution results of selenium tests run on [LambdaTest](https://www.lambdatest.com/) Selenium Automation Grid platform to Calliope analytics. In this repository we are using TestNG framework to run Selenium tests, which are being executed at [LambdaTest Selenium Gird](https://www.lambdatest.com/selenium-automation), and the results of the executed tests would be be pushed to Calliope analytics platform. 
+Using this repository you can now send test execution results of selenium tests run on [LambdaTest](https://www.lambdatest.com/) Selenium Automation Grid platform to Calliope analytics. In this repository we are using TestNG framework to run Selenium tests, which are being executed at [LambdaTest Selenium Grid](https://www.lambdatest.com/selenium-automation), and the results of the executed tests would be be pushed to Calliope analytics platform. 
 
 The first step is setting up environment. 
 
