@@ -37,8 +37,10 @@ public class CalliopeAPI
 		}  
 		
         OkHttpClient client = new OkHttpClient();
-		String endpoint_url = "https://app.calliope.pro/api/v2/profile/577/report/import?os=YOUR_OS_NAME&platform=YOUR_PLATFORM_NAME&build=YOUR_BUILD_NAME"; 
 		final String API_KEY = "YOUR-CALLIOPE-API-KEY";
+		final String PROFILE_ID = "YOUR-PROFILE-ID"
+		String endpoint_url = "https://app.calliope.pro/api/v2/profile/"+PROFILE_ID+"/report/import?os=YOUR_OS_NAME&platform=YOUR_PLATFORM_NAME&build=YOUR_BUILD_NAME"; 
+		
 	    Request request = new Request.Builder().url(endpoint_url).post(requestBody).addHeader("x-api-key", API_KEY).build();
 	      
 	    Response response = null;
